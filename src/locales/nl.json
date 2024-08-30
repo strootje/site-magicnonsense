@@ -1,0 +1,111 @@
+{
+  "site": {
+    "title": "Magic & Nonsense",
+
+    "menu": {
+      "contact": "Contact"
+    },
+
+    "address": {
+      "line1": "Veensteeg 3",
+      "line2": "3972 MH, Driebergen",
+      "line3": "Nederland"
+    },
+
+    "company": {
+      "kvk": "KvK 62418726",
+      "btw": "Btw NL001787848B92",
+      "iban": "IBAN NL24 RBRB 0790 6544 58"
+    }
+  },
+
+  "pages": {
+    "home": {
+      "hero": {
+        "text": "Trust the energy in and around you",
+        "image-alt": "My horses in our meadow"
+      },
+
+      "agenda": {
+        "title": {
+          "text": "Agenda"
+        },
+
+        "no-items": {
+          "text": "Er staat nog niks op de agenda"
+        }
+      },
+
+      "sections": {
+        "vision": {
+          "title": {
+            "text": "Onze Visie"
+          },
+
+          "content": {
+            "text": "In het dagelijks leven houden we ons veelal aan en regels. De werkdruk ligt vaak hoog maar ook binnen ons privéleven verlangen we veel van onszelf. We zoeken het liefst rationele oplossingen wanneer we gevoelsmatig vast lopen. Hierbij gaan we vaak voorbij aan eigen signalen en gevoel.  Wij maken mensen bewust van persoonlijke energie, grenzen, intuïtie, en de kracht daarvan. Onze events en trainingen zijn gebaseerd op persoonlijke spirituele ontwikkeling in samenwerking met onze dieren en de natuur."
+          }
+        },
+
+        "workshops": {
+          "title": {
+            "text": "Workshops"
+          },
+
+          "content": {
+            "text": "Voor iedereen organiseren wij korte trajecten, trainingen, events en workshops waarbij we altijd met een intake gesprek werken om gezamenlijk af te stemmen. Zo komen wij aan een gelijkwaardig en passend traject of product wat echt voor jou en/of je team werkt en passend is."
+          }
+        },
+
+        "retrait": {
+          "title": {
+            "text": "Retraite"
+          },
+
+          "content": {
+            "text": "Ook organiseren wij retraite dagen met verschillende thema’s. Hierbij staan terug gaan naar jezelf en verbinding met de natuur als basis uitgangspunt."
+          }
+        }
+      },
+
+      "about-us": {
+        "title": {
+          "text": "Wie zijn wij?"
+        },
+
+        "alt-text": "Dit zijn wij :)",
+
+        "content": {
+          "text": "Ik ben Diana Asmuss en samen met Arno Wildschut werk ik bij Magic & Nonsense. Wij leren mensen bewust kijken naar zichzelf en gebruik maken van gevoel, energie en intuïtie. Op ons mooie perceel grond werken we aan permacultuur en de verzorging van al onze dieren. Verder houden we van creatief bezig zijn en verdiepen wij ons graag in de natuur."
+        }
+      }
+    },
+
+    "contact": {
+      "hero": {
+        "text": "Contact",
+        "image-alt": "Wild horses running through a field"
+      },
+
+      "body": {
+        "text": "Wat leuk dat je contact met me wil opnemen. Vul het formulier hieronder in en ik neem zo snel mogelijk contact met je op."
+      }
+    }
+  },
+
+  "components": {
+    "page-footer": {
+      "menus": {
+        "main": {
+          "plausible": {
+            "text": "Plausible Stats"
+          },
+
+          "sources": {
+            "text": "Github Source"
+          }
+        }
+      }
+    }
+  }
+}

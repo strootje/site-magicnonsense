@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "site-magicnonsense",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "fix": "biome check --write"
+  },
+  "dependencies": {
+    "@barbapapazes/plausible-tracker": "^0.5.2",
+    "@sentry/solidstart": "^8.26.0",
+    "@solid-primitives/i18n": "^2.1.1",
+    "@solidjs/router": "^0.13.4",
+    "@solidjs/start": "^1.0.6",
+    "motion": "^10.18.0",
+    "nodemailer": "^6.9.14",
+    "solid-js": "^1.8.21"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@iconify-json/fa6-brands": "^1.1.22",
+    "@iconify-json/fa6-solid": "^1.1.24",
+    "@types/nodemailer": "^6.4.15",
+    "@unocss/reset": "^0.62.3",
+    "unocss": "^0.62.3",
+    "vinxi": "^0.4.1",
+    "vite-imagetools": "^7.0.4"
+  }
+}
