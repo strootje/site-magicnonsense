@@ -7,8 +7,8 @@ dist
 .vinxi
 
 # # Environment
-# .env
-# .env*.local
+.env
+.env*.local
 
 # dependencies
 /node_modules
