@@ -36,6 +36,9 @@ devDependencies:
   '@iconify-json/fa6-solid':
     specifier: ^1.1.24
     version: 1.1.24
+  '@strootje/biomejs':
+    specifier: npm:@jsr/strootje__biomejs@^1.0.2
+    version: /@jsr/strootje__biomejs@1.0.2
   '@types/nodemailer':
     specifier: ^6.4.15
     version: 6.4.15
@@ -1318,6 +1321,10 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  /@jsr/strootje__biomejs@1.0.2:
+    resolution: {integrity: sha512-RRuS5mi4ZltnzkHEW4WCOaDVwAbcL0Q7aGWoTze9hAkSRx5fIDTh1mAvrPkU2avM9Rczd7SK55kMd7cM5z/jeQ==, tarball: https://npm.jsr.io/~/11/@jsr/strootje__biomejs/1.0.2.tgz}
+    dev: true
 
   /@mapbox/node-pre-gyp@1.0.11:
     resolution: {integrity: sha512-Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==}

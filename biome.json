@@ -1,33 +1,4 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
-  "formatter": {
-    "enabled": true,
-    "indentStyle": "space",
-    "indentWidth": 2,
-    "lineWidth": 160
-  },
-  "linter": {
-    "rules": {
-      "correctness": {
-        "noUnusedImports": {
-          "level": "info",
-          "fix": "safe"
-        }
-      },
-      "nursery": {
-        "useSortedClasses": {
-          "level": "info",
-          "fix": "safe"
-        }
-      }
-    }
-  },
-  "organizeImports": {
-    "enabled": true
-  },
-  "vcs": {
-    "enabled": true,
-    "clientKind": "git",
-    "useIgnoreFile": true
-  }
+	"$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+	"extends": ["@strootje/biomejs/strict"]
 }
