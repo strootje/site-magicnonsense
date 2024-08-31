@@ -2,9 +2,9 @@ import "@unocss/reset/tailwind.css";
 import "virtual:uno.css";
 
 import { FileRoutes } from "@solidjs/start/router";
+import { PlausibleProvider } from "@strootje/solid-plausible";
 import { Suspense } from "solid-js";
 import { I18nProvider } from "./contexts/I18nContext";
-import { PlausibleProvider } from "./contexts/PlausibleContext";
 import { SentryRouter } from "./contexts/SentryContext";
 
 export default function App() {
