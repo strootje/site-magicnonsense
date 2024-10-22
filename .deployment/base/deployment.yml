@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: website-magicnonsense
+
+spec:
+  replicas: 1
+  revisionHistoryLimit: 1
+
+  template:
+    spec:
+      containers:
+        - name: website-magicnonsense
+          image: ghcr.io/strootje/site-magicnonsense:main
+          ports: [{ name: http, containerPort: 3000, protocol: TCP }]
+          env:
+            - { name: SMTP_PORT, value: "25" }
+            - { name: SMTP_SUBJECT, value: New submission on magic-nonsense.com }
+            - { name: SMTP_HOST, value: prd-smtpmail.strooweb-system.svc.cluster.local }
+            - { name: SMTP_FROM, value: Magic-Nonsense.com <noreply-magic-nonsense@strooware.nl> }
+            - { name: SMTP_TO, value: contact@magic-nonsense.com }
+          imagePullPolicy: Always
+
+
+      serviceAccountName: website-magicnonsense

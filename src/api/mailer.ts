@@ -6,7 +6,7 @@ const SMTP = {
   HOST: process.env.SMTP_HOST ?? "localhost",
   PORT: Number.parseInt(process.env.SMTP_PORT ?? "2525"),
   SUBJECT: process.env.SMTP_SUBJECT ?? "New submission on magic-nonsense.com",
-  FROM: process.env.SMTP_FROM ?? "Magic-Nonsense.com <no-reply@example.com",
+  FROM: process.env.SMTP_FROM ?? "Magic-Nonsense.com <no-reply@example.com>",
   TO: process.env.SMTP_TO ?? "submissions@example.com",
 };
 
