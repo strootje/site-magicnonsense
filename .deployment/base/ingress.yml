@@ -9,9 +9,9 @@ metadata:
 
 spec:
   rules:
-    - host: magic.strootje.com
+    - host: magic-nonsense.com
       http:
         paths:
           - { path: /, backend: { service: { name: website-magicnonsense, port: { name: http } } }, pathType: Prefix }
-  tls: [{ hosts: [magic.strootje.com], secretName: prd-website-magicnonsense-certs }]
+  tls: [{ hosts: [magic-nonsense.com], secretName: prd-website-magicnonsense-certs }]
   ingressClassName: traefik
