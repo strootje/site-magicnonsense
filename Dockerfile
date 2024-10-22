@@ -3,19 +3,20 @@ RUN npm i -g pnpm
 
 WORKDIR /app
 
+COPY .npmrc .
 COPY package.json .
 COPY pnpm-lock.yaml .
 RUN pnpm i
 
-COPY public ./public
-COPY src ./src
 COPY *.json .
-COPY *.ts .
-ENV NITRO_PRESET=deno-server
+COPY src ./src
+COPY *config.ts .
+COPY public ./public
+ENV NITRO_PRESET=deno_server
 RUN pnpm build
 
 # ----------------------------------------
-FROM docker.io/denoland/deno:1.45.5
+FROM docker.io/denoland/deno:alpine-1.45.5
 
 EXPOSE 3000
 WORKDIR /var/lib/app
@@ -27,8 +28,5 @@ ENV SMTP_SUBJECT=
 ENV SMTP_FROM=
 ENV SMTP_TO=
 
-COPY --from=builder /app/.vinxi ./.vinxi
-COPY --from=builder /app/.output ./.output
-COPY --from=builder /app/package.json .
-
-CMD ["run", "--allow-sys", "--allow-env", "--allow-read", "--allow-net", "./.output/server/index.mjs"]
+COPY --from=builder /app/.output .
+CMD ["run", "--allow-sys", "--allow-env", "--allow-read", "--allow-net", "./server/index.mjs"]
