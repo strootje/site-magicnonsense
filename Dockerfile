@@ -1,5 +1,5 @@
 FROM docker.io/node:20-slim AS builder
-RUN npm i -g pnpm
+RUN npm i -g pnpm@9
 
 WORKDIR /app
 
@@ -27,6 +27,13 @@ ENV SMTP_PORT=2525
 ENV SMTP_SUBJECT=
 ENV SMTP_FROM=
 ENV SMTP_TO=
+
+RUN <<EOF
+addgroup -gid 101 noroot
+adduser --gid 101 --uid 101 --shell /sbin/nologin noroot
+chown -R 101:101 /var/lib/app
+EOF
+USER 101:101
 
 COPY --from=builder /app/.output .
 CMD ["run", "--allow-sys", "--allow-env", "--allow-read", "--allow-net", "./server/index.mjs"]

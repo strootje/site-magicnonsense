@@ -2,16 +2,21 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 
 metadata:
-  name: website-magicnonsense
+  name: site-magicnonsense
   annotations:
-    kubernetes.io/ingress.class: traefik
-    cert-manager.io/cluster-issuer: acme-letsencrypt-production
+    cert-manager.io/cluster-issuer: letsencrypt-prod
 
 spec:
   rules:
     - host: magic-nonsense.com
       http:
         paths:
-          - { path: /, backend: { service: { name: website-magicnonsense, port: { name: http } } }, pathType: Prefix }
-  tls: [{ hosts: [magic-nonsense.com], secretName: prd-website-magicnonsense-certs }]
-  ingressClassName: traefik
+          - path: /
+            backend:
+              service:
+                name: site-magicnonsense
+                port: { name: http }
+            pathType: Prefix
+  tls:
+    - hosts: [magic-nonsense.com]
+      secretName: site-magicnonsense-cert

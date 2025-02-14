@@ -1,16 +1,15 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-namespace: websites-public
+namespace: magicnonsense-public
 
 commonLabels:
-  app.kubernetes.io/name: website-magicnonsense
+  app.kubernetes.io/name: site-magicnonsense
 
-commonAnnotations:
-  app.kubernetes.io/version: 1.0.0
+images:
+  - { name: ghcr.io/strootje/site-magicnonsense, newTag: main }
 
 resources:
   - deployment.yml
   - ingress.yml
-  - service-account.yml
   - service.yml
