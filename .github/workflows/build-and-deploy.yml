@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   build-and-deploy:
-    name: Build and Deploy
+    name: strooweb-workflows
     uses: strootje/strooweb-workflows/.github/workflows/build-and-deploy.yml@main
     permissions:
       contents: read
