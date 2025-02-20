@@ -25,7 +25,7 @@
     "@strootje/biomejs": "npm:@jsr/strootje__biomejs@^1.0.4",
     "@types/nodemailer": "^6.4.17",
     "@unocss/reset": "^65.5.0",
-    "unocss": "^65.5.0",
+    "unocss": "^66.0.0",
     "vinxi": "^0.5.3",
     "vite-imagetools": "^7.0.5"
   }
