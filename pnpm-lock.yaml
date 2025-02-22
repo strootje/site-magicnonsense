@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^6.4.17
     version: 6.4.17
   '@unocss/reset':
-    specifier: ^65.5.0
-    version: 65.5.0
+    specifier: ^66.0.0
+    version: 66.0.0
   unocss:
     specifier: ^66.0.0
     version: 66.0.0(postcss@8.5.3)(vite@6.1.1)(vue@3.5.13)
@@ -2791,10 +2791,6 @@ packages:
     dependencies:
       '@unocss/core': 66.0.0
       '@unocss/preset-wind3': 66.0.0
-    dev: true
-
-  /@unocss/reset@65.5.0:
-    resolution: {integrity: sha512-jADqiBAfOO9aZNpnsmxc7WX7vIIxyalcmCJ7fwdyPRmFhxZZ5ZoSYsHDt0Wfn/W2BRQkLjXWL0956nXH0lz79Q==}
     dev: true
 
   /@unocss/reset@66.0.0:
