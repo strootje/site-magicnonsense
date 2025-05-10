@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@jsr/strootje__solid-plausible':
     specifier: ^0.2.4
-    version: 0.2.4
+    version: 0.2.10
   '@sentry/solidstart':
     specifier: ^9.1.0
     version: 9.16.1(@opentelemetry/api@1.9.0)(@opentelemetry/context-async-hooks@1.30.1)(@opentelemetry/core@1.30.1)(@opentelemetry/instrumentation@0.57.2)(@opentelemetry/sdk-trace-base@1.30.1)(@opentelemetry/semantic-conventions@1.33.0)(@solidjs/router@0.15.3)(@solidjs/start@1.1.3)(solid-js@1.9.6)
@@ -1638,8 +1638,8 @@ packages:
     resolution: {integrity: sha512-GQ2eDED8sm0RiEVVL3IyDKv90q4+ugA2od8q5oTQPIF5aFJHW9GjQjnUeDG9EPoSZm+YItZv0Y/7//X8Wn/3AQ==, tarball: https://npm.jsr.io/~/11/@jsr/strootje__biomejs/1.0.4.tgz}
     dev: true
 
-  /@jsr/strootje__solid-plausible@0.2.4:
-    resolution: {integrity: sha512-apikmfYm1nVS76XX+lpb7FgDHnWMNsAmWSN6BlWq/63cP5qCvFCVYwCkTTd9/JyPQq/OsePAMj/Zakn1EPE2Zw==, tarball: https://npm.jsr.io/~/11/@jsr/strootje__solid-plausible/0.2.4.tgz}
+  /@jsr/strootje__solid-plausible@0.2.10:
+    resolution: {integrity: sha512-/y2qbFbPP6g3ThXj6BC2fG1106HLt8ozClr7MiDN1SBDxD0cdtcJQCccwkwzBCajjtsfkWu8PfiZwhEqhWkRfQ==, tarball: https://npm.jsr.io/~/11/@jsr/strootje__solid-plausible/0.2.10.tgz}
     dependencies:
       '@barbapapazes/plausible-tracker': 0.5.6
       solid-js: 1.9.6
