@@ -1,20 +1,21 @@
 import "@unocss/reset/tailwind.css";
 import "virtual:uno.css";
 
-import { PlausibleProvider } from "@jsr/strootje__solid-plausible";
+import { Plausible } from "@jsr/strootje__solid-plausible";
 import { FileRoutes } from "@solidjs/start/router";
 import { Suspense } from "solid-js";
 import { I18nProvider } from "./contexts/I18nContext";
-import { SentryRouter } from "./contexts/SentryContext";
+import { Router } from "@solidjs/router";
 
 export default function App() {
   return (
     <I18nProvider locale="nl">
-      <PlausibleProvider apiHost="https://stats.strooware.nl">
-        <SentryRouter root={(props) => <Suspense>{props.children}</Suspense>}>
+      <Plausible.Provider value={{ apiHost: "https://stats.strooware.nl" }}>
+        <Plausible.AutoPageviewTracking />
+        <Router root={(props) => <Suspense>{props.children}</Suspense>}>
           <FileRoutes />
-        </SentryRouter>
-      </PlausibleProvider>
+        </Router>
+      </Plausible.Provider>
     </I18nProvider>
   );
 }

@@ -9,12 +9,11 @@
     "fix": "biome check --write"
   },
   "dependencies": {
-    "@jsr/strootje__solid-plausible": "^0.2.4",
-    "@sentry/solidstart": "^9.1.0",
+    "@jsr/strootje__solid-plausible": "^0.2.10",
     "@solid-primitives/i18n": "^2.2.0",
     "@solidjs/router": "^0.15.3",
     "@solidjs/start": "^1.1.1",
-    "motion": "^12.4.3",
+    "motion": "^12.11.0",
     "nodemailer": "^6.10.0",
     "solid-js": "^1.9.4"
   },
