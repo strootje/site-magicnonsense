@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@jsr/strootje__solid-plausible':
     specifier: ^0.2.10
-    version: 0.2.10
+    version: 0.2.11
   '@solid-primitives/i18n':
     specifier: ^2.2.0
     version: 2.2.1(solid-js@1.9.6)
@@ -1668,8 +1668,8 @@ packages:
     resolution: {integrity: sha512-GQ2eDED8sm0RiEVVL3IyDKv90q4+ugA2od8q5oTQPIF5aFJHW9GjQjnUeDG9EPoSZm+YItZv0Y/7//X8Wn/3AQ==, tarball: https://npm.jsr.io/~/11/@jsr/strootje__biomejs/1.0.4.tgz}
     dev: true
 
-  /@jsr/strootje__solid-plausible@0.2.10:
-    resolution: {integrity: sha512-/y2qbFbPP6g3ThXj6BC2fG1106HLt8ozClr7MiDN1SBDxD0cdtcJQCccwkwzBCajjtsfkWu8PfiZwhEqhWkRfQ==, tarball: https://npm.jsr.io/~/11/@jsr/strootje__solid-plausible/0.2.10.tgz}
+  /@jsr/strootje__solid-plausible@0.2.11:
+    resolution: {integrity: sha512-W4Uq1mKFdaoWTUkVrzEg0VkX4yEoJ+3vs1YKHiFbVwLT9G+kxzMY3+c4JsPvi11ymtRPu08xjS08CMb+xl4ddw==, tarball: https://npm.jsr.io/~/11/@jsr/strootje__solid-plausible/0.2.11.tgz}
     dependencies:
       '@barbapapazes/plausible-tracker': 0.5.6
       solid-js: 1.9.6
