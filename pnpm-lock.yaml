@@ -45,7 +45,7 @@ devDependencies:
     version: 6.4.17
   '@unocss/reset':
     specifier: ^66.0.0
-    version: 66.2.0
+    version: 66.2.1
   unocss:
     specifier: ^66.0.0
     version: 66.2.0(postcss@8.5.5)(vite@6.3.5)(vue@3.5.16)
@@ -2157,6 +2157,10 @@ packages:
 
   /@unocss/reset@66.2.0:
     resolution: {integrity: sha512-lANXvmU81Cmx5wo4Bwuw9VhOdOFzo/I2L0RCHSmH22m6+VQwG+ho9YONygf6AcN/ookyXX2F7si3CPM6Hkf4Cw==}
+    dev: true
+
+  /@unocss/reset@66.2.1:
+    resolution: {integrity: sha512-gaEUsrRJ7UyWgbP89eFyilw6oHdgPMuLmTfz6Gu1eIKF1rxP6u2n4k/WsO5e+6ECUvEq0pYJluuWUNR8CkpW9Q==}
     dev: true
 
   /@unocss/rule-utils@66.2.0:
