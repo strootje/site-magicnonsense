@@ -22,7 +22,7 @@ importers:
         version: 1.2.0(solid-js@1.9.9)(vinxi@0.5.8(@netlify/blobs@9.1.2)(@types/node@24.3.0)(db0@0.3.2)(ioredis@5.7.0)(jiti@2.6.0)(terser@5.43.1))(vite@6.3.5(@types/node@24.3.0)(jiti@2.6.0)(terser@5.43.1))
       motion:
         specifier: ^12.11.0
-        version: 12.23.21
+        version: 12.23.22
       nodemailer:
         specifier: ^7.0.0
         version: 7.0.6
@@ -2437,8 +2437,8 @@ packages:
     resolution: {integrity: sha512-buewHzMvYL29jdeQTVILecSaZKnt/RJWjoZCF5OW60Z67/GmSLBkOFM7qh1PI3zFNtJbaZL5eQu1vLfazOwj4g==}
     engines: {node: '>=12.20.0'}
 
-  framer-motion@12.23.21:
-    resolution: {integrity: sha512-UWDtzzPdRA3UpSNGril5HjUtPF1Uo/BCt5VKG/YQ8tVpSkAZ22+q8o+hYO0C1uDAZuotQjcfzsTsDtQxD46E/Q==}
+  framer-motion@12.23.22:
+    resolution: {integrity: sha512-ZgGvdxXCw55ZYvhoZChTlG6pUuehecgvEAJz0BHoC5pQKW1EC5xf1Mul1ej5+ai+pVY0pylyFfdl45qnM1/GsA==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0 || ^19.0.0
@@ -2966,8 +2966,8 @@ packages:
   motion-utils@12.23.6:
     resolution: {integrity: sha512-eAWoPgr4eFEOFfg2WjIsMoqJTW6Z8MTUCgn/GZ3VRpClWBdnbjryiA3ZSNLyxCTmCQx4RmYX6jX1iWHbenUPNQ==}
 
-  motion@12.23.21:
-    resolution: {integrity: sha512-FzgbQNeZXHWXXEKmpfenYvF5wdc5i7lT/Kwr3xV4dmGVsU7Y30QcgCZsWHAlE/4McAWhNGbOAhgdiabXZ1EjnA==}
+  motion@12.23.22:
+    resolution: {integrity: sha512-iSq6X9vLHbeYwmHvhK//+U74ROaPnZmBuy60XZzqNl0QtZkWfoZyMDHYnpKuWFv0sNMqHgED8aCXk94LCoQPGg==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0 || ^19.0.0
@@ -6878,7 +6878,7 @@ snapshots:
     dependencies:
       fetch-blob: 3.2.0
 
-  framer-motion@12.23.21:
+  framer-motion@12.23.22:
     dependencies:
       motion-dom: 12.23.21
       motion-utils: 12.23.6
@@ -7385,9 +7385,9 @@ snapshots:
 
   motion-utils@12.23.6: {}
 
-  motion@12.23.21:
+  motion@12.23.22:
     dependencies:
-      framer-motion: 12.23.21
+      framer-motion: 12.23.22
       tslib: 2.8.1
 
   mrmime@2.0.1: {}
