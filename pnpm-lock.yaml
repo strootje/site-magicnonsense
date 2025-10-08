@@ -25,7 +25,7 @@ importers:
         version: 12.23.22
       nodemailer:
         specifier: ^7.0.0
-        version: 7.0.7
+        version: 7.0.9
       solid-js:
         specifier: ^1.9.4
         version: 1.9.9
@@ -3056,8 +3056,8 @@ packages:
     resolution: {integrity: sha512-3VW/8JpPqPvnJvseXowjZcirPisssnBuDikk6JIZ8jQzF7KJQX52iPFX4RYYxLycYH7IbMRSPUOga/esVjy5Yg==}
     engines: {node: '>=18'}
 
-  nodemailer@7.0.7:
-    resolution: {integrity: sha512-jGOaRznodf62TVzdyhKt/f1Q/c3kYynk8629sgJHpRzGZj01ezbgMMWJSAjHADcwTKxco3B68/R+KHJY2T5BaA==}
+  nodemailer@7.0.9:
+    resolution: {integrity: sha512-9/Qm0qXIByEP8lEV2qOqcAW7bRpL8CR9jcTwk3NBnHJNmP9fIJ86g2fgmIXqHY+nj55ZEMwWqYAT2QTDpRUYiQ==}
     engines: {node: '>=6.0.0'}
 
   nopt@8.1.0:
@@ -7539,7 +7539,7 @@ snapshots:
     dependencies:
       '@babel/parser': 7.28.4
 
-  nodemailer@7.0.7: {}
+  nodemailer@7.0.9: {}
 
   nopt@8.1.0:
     dependencies:
