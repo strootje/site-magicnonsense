@@ -1,4 +1,4 @@
-FROM docker.io/node:24-slim AS builder
+FROM docker.io/node:25-slim AS builder
 RUN npm i -g pnpm@9
 
 WORKDIR /app
