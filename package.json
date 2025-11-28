@@ -26,6 +26,6 @@
     "@unocss/reset": "^66.0.0",
     "unocss": "^66.0.0",
     "vinxi": "^0.5.3",
-    "vite-imagetools": "^9.0.0"
+    "vite-imagetools": "^8.0.0"
   }
 }
